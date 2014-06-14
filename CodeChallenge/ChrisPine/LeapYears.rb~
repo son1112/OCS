@@ -1,0 +1,6 @@
+puts 'Starting year?'
+@starting = gets.chomp
+puts ''
+
+puts 'Ending year?'
+@ending = gets.chomp

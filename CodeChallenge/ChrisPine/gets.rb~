@@ -1,0 +1,6 @@
+puts 'Welcome to me.'
+puts ''
+puts 'Please type your name and press the ENTER key.'
+puts ''
+puts gets
+

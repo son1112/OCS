@@ -1,0 +1,5 @@
+speak = gets.chomp
+
+unless speak.uppercase
+  puts 'HUH?! SPEAK UP, SONNY!'
+end

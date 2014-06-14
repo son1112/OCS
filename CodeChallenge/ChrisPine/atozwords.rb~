@@ -1,0 +1,3 @@
+puts 'Type a word and press ENTER. Contribute as many words as you like.'
+puts 'When you are finished, press ENTER twice.'
+puts 

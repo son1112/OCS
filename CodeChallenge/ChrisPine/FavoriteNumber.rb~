@@ -1,0 +1,8 @@
+puts 'What is your favorite number?'
+puts ''
+
+fav = gets.chomp
+
+bigger = puts fav.to_i + 1
+
+puts 'Well, ' + bigger + 'is better.'

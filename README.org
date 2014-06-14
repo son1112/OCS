@@ -1,0 +1,9 @@
+Omaha Code School
+
+** Application
+
+   - [ ] Code Challenge
+     
+     - [ ] Chris Pine's "Learn to Program"
+
+           [[file:CodeChallenge/ChrisPine][files]]
