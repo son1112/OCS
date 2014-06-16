@@ -1,0 +1,554 @@
+
+M: 1000
+D: 500
+C: 100
+L: 50
+X: 10
+V: 5
+I: 1
+
+
+b = places.rassoc(a).first : I
+I
+1
+
+b = places.rassoc(a).first : I
+II
+2
+
+b = places.rassoc(a).first : I
+III
+3
+
+b = places.rassoc(a).first : IV
+IV
+4
+
+b = places.rassoc(a).first : V
+V
+5
+
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+VI
+6
+
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+VII
+7
+
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+VIII
+8
+
+b = places.rassoc(a).first : IX
+IX
+9
+
+b = places.rassoc(a).first : X
+X
+10
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XI
+11
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XII
+12
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XIII
+13
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+XIV
+14
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+XV
+15
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XVI
+16
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XVII
+17
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XVIII
+18
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IX
+XIX
+19
+
+b = places.rassoc(a).first : X
+XX
+20
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXI
+21
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXII
+22
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXIII
+23
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+XXIV
+24
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+XXV
+25
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXVI
+26
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXVII
+27
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXVIII
+28
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IX
+XXIX
+29
+
+b = places.rassoc(a).first : X
+XXX
+30
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXXI
+31
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXXII
+32
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXXIII
+33
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+XXXIV
+34
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+XXXV
+35
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXXVI
+36
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXXVII
+37
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXXVIII
+38
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IX
+XXXIX
+39
+
+b = places.rassoc(a).first : XL
+XL
+40
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXXXI
+41
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXXXII
+42
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+XXXXIII
+43
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+XXXXIV
+44
+
+b = places.rassoc(a).first : VL
+VL
+45
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXXXVI
+46
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXXXVII
+47
+
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+XXXXVIII
+48
+
+b = places.rassoc(a).first : IL
+IL
+49
+
+b = places.rassoc(a).first : L
+L
+50
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : I
+LI
+51
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : I
+LII
+52
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : I
+LIII
+53
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : IV
+LIV
+54
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : V
+LV
+55
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LVI
+56
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LVII
+57
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LVIII
+58
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : IX
+LIX
+59
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+LX
+60
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXI
+61
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXII
+62
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXIII
+63
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+LXIV
+64
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+LXV
+65
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXVI
+66
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXVII
+67
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXVIII
+68
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IX
+LXIX
+69
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+LXX
+70
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXI
+71
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXII
+72
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXIII
+73
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+LXXIV
+74
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+LXXV
+75
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXVI
+76
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXVII
+77
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXVIII
+78
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IX
+LXXIX
+79
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+LXXX
+80
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXXI
+81
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXXII
+82
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXXIII
+83
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+LXXXIV
+84
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+LXXXV
+85
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXXVI
+86
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXXVII
+87
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXXVIII
+88
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IX
+LXXXIX
+89
+
+b = places.rassoc(a).first : XC
+XC
+90
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXXXI
+91
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXXXII
+92
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : I
+LXXXXIII
+93
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : IV
+LXXXXIV
+94
+
+b = places.rassoc(a).first : VC
+VC
+95
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXXXVI
+96
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXXXVII
+97
+
+b = places.rassoc(a).first : L
+b = places.rassoc(a).first : X
+b = places.rassoc(a).first : V
+b = places.rassoc(a).first : I
+LXXXXVIII
+98
+
+b = places.rassoc(a).first : IC
+IC
+99
+
+b = places.rassoc(a).first : C
+C
+100
+
