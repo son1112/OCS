@@ -1,92 +1,90 @@
-number = gets.chomp.to_i
-num = number.to_f
-roman = []
-
-def places number
-  length = number.to_s.length
-  
-  case length
-  when length == 4
-    1000
-  when length == 3
-    100
-  when length == 2
-    10
-  when length == 1
-    1
-  end
-  
-end
-
-while num >= 1
-
-  if number > (places number)
-
-    (number/1000).times { roman.push 'M' }
-    num = num - (1000*(number/1000))
-    number = number - (1000*(number/1000))
-
-  else
-    break
+  def includesfives number
+    fives = [(500...1000),(50...100),(5...10)]
+    
+    fives.each do |range|
+      range.include?(number)
+    end
   end
 
-end
-puts roman.join
 
-# number = gets.chomp.to_i
+  def placement number
+    place = []
+    length = number.to_s.length
 
-# def place(num, character)
-#   (number/num).times { roman.push character }
-#   num = num - num.(number/num)
-# end
+    if includesfives number
+      place.push 5
+    else
+      place.push 1
+    end
 
-# def old_roman_numeral number
+    (length - 1).times { place.push 0 }
 
-#   thousands = number/1000
-#   five_hundreds = number/500
-#   hundreds = number/100
-#   fifties = number/50
-#   tens = number/10
-#   fives = number/5
-#   ones = number/1
-
-  
-#   num = number.to_f
-
-#   while num >= 1
-#     roman = [] 
-
-#     case num
-#     when num >= 1000.0
-#       thousands.times { roman.push 'M' }
-#       num = num - 1000*thousands
-#     when num >= 500.0
-#       five_hundreds.times { roman.push 'D' }
-#       num = num - 500*five_hundreds
-#     when num >= 100.0
-#       hundreds.times { roman.push 'C' }
-#       num = num - 100*hundreds
-#     when num >= 50.0
-#       fifties.times { roman.push 'L' }
-#       num = num - 50*fifties
-#     when num >= 10.0
-#       tens.times { roman.push 'X' }
-#       num = num - 10*tens
-#     when num >= 5.0
-#       fives.times { roman.push 'V' }
-#       num = num - 5*fives
-#     when num >= 1.0
-#       ones.times { roman.push 'I' }
-#       num = num - ones
-#     else
-#       break
-#     end
-
-#     roman.join
-#   end
-# end  
-
-# old_roman_numeral number
+    if place.join.to_i >1000
+      1000
+    else
+      place.join.to_i
+    end
+  end
 
 
+  def roman_numeral number
+    roman = []
 
+    #TESTS
+    puts
+    puts '#TESTS'
+    puts number
+    puts placement number
+    puts '#TESTS'
+    puts
+      #TESTS
+
+
+    while number >= 1
+      places = [
+                ["M", 1000], 
+                ["D",  500], 
+                ["C",  100], 
+                ["L",   50], 
+                ["X",   10], 
+                ["V",    5], 
+                ["I",    1]
+               ]
+      
+      a = placement number
+      b = places.rassoc(a).first.to_s
+      c = number / a
+
+      #TESTS
+      puts
+      puts '#TESTS'
+      puts places.rassoc(placement number).first.to_s
+      puts '#TESTS'
+      puts
+      #TESTS
+
+      c.times { roman.push b }
+
+      unless number == a
+        number = number % a
+      else
+        number = number - a
+      end
+    end
+
+    puts roman.join
+  end
+
+
+  puts
+  puts 'Please enter a year...'
+  puts
+  number = gets.chomp.to_i
+  puts
+
+  roman_numeral number
+
+  puts
+
+  #NB:
+  # number % 1000 500 100 50 10 5 1
