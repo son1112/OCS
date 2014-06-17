@@ -1,15 +1,23 @@
-#number = 500
-#number = gets.chomp.to_i
+#TEST VARIABLES
+# number = 500
+# number = gets.chomp.to_i
 
-puts
-puts 'M: 1000'
-puts 'D: 500'
-puts 'C: 100'
-puts 'L: 50'
-puts 'X: 10'
-puts 'V: 5'
-puts 'I: 1'
-puts
+#TEST REFERENCES
+# puts
+# puts 'M:  1000'
+# puts 'CM:  900
+# puts 'D:   500'
+# puts 'CD:  400'
+# puts 'C:   100'
+# puts 'XC:   90'
+# puts 'L:    50'
+# puts 'XL:   40'
+# puts 'X:    10'
+# puts 'IX:    9'
+# puts 'V:     5'
+# puts 'IV:    4'
+# puts 'I:     1'
+# puts
 
 
 def includesfives number
@@ -33,7 +41,11 @@ end
 
 def subs number
   subs = [4,9,40,45,49,90,95,99]
+
   # 5 10 50 100
+  # number.to_f/5.0 = ?
+  # is there a pattern?
+  # 4.0/5.0
 
   if subs.count(number) == 1
     true
@@ -107,7 +119,7 @@ def roman_numeral number
     # puts 'C:'
     # puts '---------------------------------------------'
     # puts 'a = placement number : ' + a.to_s 
-    puts 'b = places.rassoc(a).first : ' + b.to_s
+    # puts 'b = places.rassoc(a).first : ' + b.to_s
     # puts '---------------------------------------------'
     # puts
     #TESTS
@@ -143,7 +155,7 @@ end
 
 puts
 #puts 'Roman Numeral for ' + number.to_s + ': ' + (roman_numeral number).to_s
-number_rangeA = (1..100)
+number_rangeA = (1..1000)
 
 number_rangeA.each do |digit|
   num = digit.to_i
